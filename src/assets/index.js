@@ -21,6 +21,11 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import matlab from "./tech/matlab.png";
+import python from "./tech/pyhton.png";
+import sql from "./tech/SQL.png";
+import swift from "./tech/swift.png";
 
 import incu from "./company/incu.jpg";
 import meta from "./company/meta.png";
@@ -34,6 +39,11 @@ import tripguide from "./tripguide.png";
 import LukAR from "./LukAR.jpg";
 
 export {
+  java,
+  matlab,
+  python,
+  sql,
+  swift,
   database,
   backend,
   incu,

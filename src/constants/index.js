@@ -24,6 +24,11 @@ import {
     threejs,
     incu,
     database,
+    java,
+    matlab,
+    python,
+    sql,
+    swift
   } from "../assets";
 
   import { LukAR } from "../assets"
@@ -90,6 +95,26 @@ import {
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "MATHLAB",
+      icon: matlab,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "Swift",
+      icon: swift,
     },
   ];
   
