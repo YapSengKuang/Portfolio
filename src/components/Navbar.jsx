@@ -19,8 +19,7 @@ const Navbar = () => {
             window.scrollTo(0,0);
           }} 
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-secondary text-[18px] font-bold cursor-pointer flex">
             Seng Kuang Yap &nbsp; 
             <span className="sm:block hidden">| Software Developer</span>
           </p>
@@ -31,9 +30,9 @@ const Navbar = () => {
               key = {link.id}
               className={`${
                 active === link.title
-                  ? "text-white"
+                  ? "text-black"
                   : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-black text-[18px] font-medium cursor-pointer`}
             >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
@@ -50,7 +49,7 @@ const Navbar = () => {
                       key = {link.id}
                       className={`${
                         active === link.title
-                          ? "text-white"
+                          ? "text-black"
                           : "text-secondary"
                       } font-poppins font-medium cursor-pointer text-[16px]`}
                       onClick={() => {

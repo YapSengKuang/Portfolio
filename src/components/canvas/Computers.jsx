@@ -3,7 +3,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computer = useGLTF('./amongus/scene.gltf')
 
   return (
     <mesh>
@@ -12,9 +12,9 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive 
         object={computer.scene}
-        scale = {isMobile ? 0.7 : 0.75}
+        scale = {isMobile ? 0.007 : 0.007}
         position = {isMobile ? [0,-3,-2.2]:[0, -3.25, -1.5]}
-        rotation = {[-0.01, -0.2, -0.1]}
+        rotation = {[-1, 1.5, 1]}
       />
     </mesh>
   )
@@ -49,7 +49,7 @@ useEffect(() => {
     <Canvas
       frameloop='demand'
       shadows
-      camera = {{position: [20,3,5], fov: 25}}
+      camera = {{position: [20,30,20], fov: 25}}
       gl = {{ preserveDrawingBuffer: true}}
     >
       <Suspense fallback={<CanvasLoader />}>

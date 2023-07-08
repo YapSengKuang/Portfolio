@@ -19,11 +19,13 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
     jobit,
     tripguide,
     threejs,
+    incu
   } from "../assets";
+
+  import { LukAR } from "../assets"
   
   export const navLinks = [
     {
@@ -73,28 +75,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -104,67 +90,20 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Sales Assistant",
+      company_name: "Incu",
+      icon: incu,
+      iconBg: "#FF7007",
+      date: "May 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Direct employees in daily operations such as serving customers, inventory taking, reconciling cash and managing in store marketing.",
+        "Track and manage inventory at store",
+        "Strong customer service, management and communication skills",
+        "Maximum sales through the delivery of high quality customer service and outstanding product knowledge",
       ],
     },
   ];
@@ -198,25 +137,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "LukAR",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Augmented reality shopping assistant that uses object detection with an AR UI to allow for users to efficiency conduct their grocery shopping.",
       tags: [
         {
-          name: "react",
+          name: "C++",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "YOLO",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "roboflow",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "colab",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Darknet",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "unity",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: LukAR,
+      source_code_link: "https://github.com/YapSengKuang/AR-Glasses",
     },
     {
       name: "Job IT",
@@ -240,25 +191,29 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Portfolio",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ThreeJS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/YapSengKuang/Portfolio",
     },
   ];
   
