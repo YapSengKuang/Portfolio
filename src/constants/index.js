@@ -22,7 +22,8 @@ import {
     jobit,
     tripguide,
     threejs,
-    incu
+    incu,
+    database,
   } from "../assets";
 
   import { LukAR } from "../assets"
