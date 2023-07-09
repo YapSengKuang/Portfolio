@@ -31,7 +31,7 @@ import {
     swift
   } from "../assets";
 
-  import { LukAR } from "../assets"
+  import { LukAR, portfolio } from "../assets"
   
   export const navLinks = [
     {
@@ -196,30 +196,9 @@ import {
       source_code_link: "https://github.com/YapSengKuang/AR-Glasses",
     },
     {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Website that showcases my works, skills, accomplishments, experience and contact.",
       tags: [
         {
           name: "react",
@@ -238,7 +217,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: portfolio,
       source_code_link: "https://github.com/YapSengKuang/Portfolio",
     },
   ];
