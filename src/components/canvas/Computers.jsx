@@ -3,17 +3,21 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./amongus/scene.gltf')
+  const computer = useGLTF('./newAmongUS/AMONGNICE.glb')
 
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
 
       <pointLight intensity={1} />
+
+      <spotLight position={[1, 2, 3]} />
+      
+      
       <primitive 
         object={computer.scene}
-        scale = {isMobile ? 0.007 : 0.007}
-        position = {isMobile ? [0,-3,-2.2]:[0, -3.25, -1.5]}
+        scale = {isMobile ? 1 : 1.5}
+        position = {isMobile ? [0,-5,0]:[0, -3.25, 0]}
         rotation = {[-1, 1.5, 1]}
       />
     </mesh>
@@ -54,10 +58,12 @@ useEffect(() => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls 
+          autoRotate
+          reverseOrbit
+          
           enableZoom = {false}
           maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-          
+          minPolarAngle={Math.PI /2}
         />
         <Computers isMobile={isMobile} />
 
