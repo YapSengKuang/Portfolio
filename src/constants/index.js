@@ -126,10 +126,9 @@ import {
       iconBg: "#FF7007",
       date: "May 2022 - Present",
       points: [
-        "Direct employees in daily operations such as serving customers, inventory taking, reconciling cash and managing in store marketing.",
-        "Track and manage inventory at store",
-        "Strong customer service, management and communication skills",
-        "Maximum sales through the delivery of high quality customer service and outstanding product knowledge",
+        "Developed excellent consultative skills while managing a high-pressured and dynamic environment.",
+        "Built a comprehensive understanding of store products to effectively consult with clients and deliver high-quality and tailored service.",
+        "Fostered strong customer relationships by consistently demonstrating empathy, active listening, and a commitment to meeting individual needs.",
       ],
     },
   ];

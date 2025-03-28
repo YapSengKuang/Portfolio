@@ -37,7 +37,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import LukAR from "./LukAR.jpg";
-import portfolio from "./PortfolioImage.PNG"
+import portfolio from './PortfolioImage.jpg';
 
 export {
   portfolio,
