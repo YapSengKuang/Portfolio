@@ -3,22 +3,22 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./newAmongUS/AMONGNICE.glb')
+  const computer = useGLTF('./newDog/Mascot_Kasa.glb')
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
+      <hemisphereLight intensity={0.5} groundColor="black" />
 
       <pointLight intensity={1} />
 
-      <spotLight position={[1, 2, 3]} />
+      <spotLight position={[1, 5, 1]} />
       
       
       <primitive 
         object={computer.scene}
-        scale = {isMobile ? 1 : 1.5}
-        position = {isMobile ? [0,-5,0]:[0, -3.25, 0]}
-        rotation = {[-1, 1.5, 1]}
+        scale = {isMobile ? 0.1 : 0.15}
+        position = {isMobile ? [0,-5,0]:[0, -4, 0]}
+        rotation = {[-1, 1.6, 1]}
       />
     </mesh>
   )
