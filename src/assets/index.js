@@ -48,6 +48,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import LukAR from "./LukAR.jpg";
 import portfolio from './PortfolioImage.jpg';
+import clothingApp from './Barugahdrip-03.png';
+import honoursProject from './honours.jpeg'
 
 export {
   portfolio,
@@ -96,4 +98,6 @@ export {
   unity,
   yolo,
   tableau,
+  clothingApp,
+  honoursProject
 };

@@ -37,7 +37,9 @@ import {
     aws,
     yolo,
     tableau,
-    unity
+    unity,
+    clothingApp,
+    honoursProject
   } from "../assets";
 
   import { LukAR, portfolio } from "../assets"
@@ -168,12 +170,11 @@ import {
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
-  
   const projects = [
     {
       name: "LukAR",
       description:
-        "Augmented reality shopping assistant that uses object detection with an AR UI to allow for users to efficiency conduct their grocery shopping.",
+        "Augmented reality shopping assistant that uses object detection with an AR UI to allow for users to efficiently conduct their grocery shopping.",
       tags: [
         {
           name: "C++",
@@ -196,7 +197,7 @@ import {
           color: "orange-text-gradient",
         },
         {
-          name: "unity",
+          name: "Unity",
           color: "pink-text-gradient",
         },
       ],
@@ -206,28 +207,71 @@ import {
     {
       name: "Portfolio",
       description:
-        "Website that showcases my works, skills, accomplishments, experience and contact.",
+        "Website that showcases my works, skills, accomplishments, experience, and contact information.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwindcss",
+          name: "TailwindCSS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "ThreeJS",
+          name: "Three.js",
           color: "pink-text-gradient",
         },
       ],
       image: portfolio,
       source_code_link: "https://github.com/YapSengKuang/Portfolio",
     },
+    {
+      name: "Clothing Tracking iOS App",
+      description:
+        "Created an iOS app for tracking clothing items using Swift and Core Data. Conducted market analysis to identify features that set it apart from competitors.",
+      tags: [
+        {
+          name: "Swift",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Core Data",
+          color: "green-text-gradient",
+        },
+        {
+          name: "iOS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: clothingApp,
+      source_code_link: "https://github.com/YapSengKuang/Clothing-Tracking-App",
+    },
+    {
+      name: "Honours Project - Smart VR Sports Training",
+      description:
+        "Led a team to develop and enhance a VR sports training system to improve athletic performance through virtual simulations and experiments.",
+      tags: [
+        {
+          name: "Unity",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "VR",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C#",
+          color: "green-text-gradient",
+        },
+      ],
+      image: honoursProject,
+      source_code_link: "https://github.com/YapSengKuang/Honours-VR-Project",
+    },
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };
