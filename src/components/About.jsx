@@ -36,7 +36,10 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I am a skilled developer with experience in SQL, Java, Javascript and Swift, and expertise in frameworks like React, Node.js and Three.js. I'm a quick learner and often create personal projects to explore multiple frameworks and webservices. Along with this, I also have experience working with SAFE teams.
+      I am a versatile Software Engineer skilled in full-stack development, machine learning, and AR/VR. Proficient in Python,
+       JavaScript, Swift, C++, and SQL, I work with frameworks like React, Node.js, Three.js, and Unity, and deploy via AWS S3. Passionate
+        about innovation, I build projects integrating AI, web services, and immersive tech. 
+      Experienced in SAFe teams, I excel in dynamic environments, problem-solving, and driving impactful solutions.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) =>(

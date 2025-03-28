@@ -13,7 +13,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi, I am <span className='text-cards-100'>Seng Kuang Yap</span></h1>
           <p className={`${styles.heroSubText} mt-2`}>
-            I am a software engineering student who <br className='sm:block hidden'/>loves IOS development and Web development
+          Recent Software Engineer Graduate @ Monash | Built a VR Sports Simulator for honours project | Passionate about Python, React and Unity| Building a career in Software Engineering👋
           </p>
         </div>
       </div>
