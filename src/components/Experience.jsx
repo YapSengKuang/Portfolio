@@ -7,8 +7,8 @@ import { SectionWrapper } from '../hoc';
 import { textVariant } from "../utils/motion";
 const ExperienceCard = ({experience}) => (
   <VerticalTimelineElement
-    contentStyle={{background: '#A0C49D', color: '#A0C49D'}}
-    contentArrowStyle={{borderRight: '7px solid #A0C49D'}}
+    contentStyle={{background: '#6f6bc6', color: '#6f6bc6'}}
+    contentArrowStyle={{borderRight: '7px solid #6f6bc6'}}
 
     date = {experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -21,7 +21,7 @@ const ExperienceCard = ({experience}) => (
   >
     <div>
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-      <p className="text-secondary text-[16px] font-semibold" style = {{margin: 0}}>
+      <p className="text-black-200 text-[16px] font-semibold" style = {{margin: 0}}>
         {experience.company_name}
       </p>
     </div>
