@@ -207,7 +207,7 @@ import {
     {
       name: "Portfolio",
       description:
-        "Website that showcases my works, skills, accomplishments, experience, and contact information.",
+        "Website that showcases my works, skills, accomplishments, experience, and contact information. Made use of AWS S3 to host website.",
       tags: [
         {
           name: "React",
@@ -248,7 +248,7 @@ import {
         },
       ],
       image: clothingApp,
-      source_code_link: "https://github.com/YapSengKuang/Clothing-Tracking-App",
+      source_code_link: "https://github.com/YapSengKuang/BarugahDrip",
     },
     {
       name: "Honours Project - Smart VR Sports Training",
@@ -269,7 +269,7 @@ import {
         },
       ],
       image: honoursProject,
-      source_code_link: "https://github.com/YapSengKuang/Honours-VR-Project",
+      source_code_link: "https://github.com/XUBOI2806/VR-Soccer-FYP",
     },
   ];
   
