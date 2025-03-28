@@ -26,6 +26,16 @@ import matlab from "./tech/matlab.png";
 import python from "./tech/pyhton.png";
 import sql from "./tech/SQL.png";
 import swift from "./tech/swift.png";
+import c from "./tech/c.png";
+import cpp from "./tech/cpp_logo.png";
+import csharp from "./tech/Csharp_Logo.png";
+import r from "./tech/rlogo.jpeg";
+import aws from "./tech/s3.png";
+import xcode from "./tech/Xcode.svg.png";
+import yolo from "./tech/yolo.png";
+import tableau from "./tech/tableau.png"
+import unity from "./tech/unity.png"
+
 
 import incu from "./company/incu.jpg";
 import meta from "./company/meta.png";
@@ -76,5 +86,14 @@ export {
   carrent,
   jobit,
   tripguide,
-  LukAR
+  LukAR,
+  c,
+  cpp,
+  csharp,
+  r,
+  aws,
+  xcode,
+  unity,
+  yolo,
+  tableau,
 };

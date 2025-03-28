@@ -28,7 +28,16 @@ import {
     matlab,
     python,
     sql,
-    swift
+    swift,
+    c,
+    cpp,
+    csharp,
+    r,
+    xcode,
+    aws,
+    yolo,
+    tableau,
+    unity
   } from "../assets";
 
   import { LukAR, portfolio } from "../assets"
@@ -69,18 +78,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
@@ -101,10 +98,6 @@ import {
       icon: java,
     },
     {
-      name: "MATHLAB",
-      icon: matlab,
-    },
-    {
       name: "python",
       icon: python,
     },
@@ -116,6 +109,22 @@ import {
       name: "Swift",
       icon: swift,
     },
+    {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "R",
+      icon: r,
+    },
+    {
+      name: "AWS S3",
+      icon: aws,
+    },
+    {
+      name: "Tableau",
+      icon: tableau,
+    }
   ];
   
   const experiences = [
